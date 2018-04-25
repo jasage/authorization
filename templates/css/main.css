@@ -1,0 +1,144 @@
+/*Personal Page*/
+body{
+    min-width: 980px;
+    margin:10px;
+}
+/* HEADER */
+span.head{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: Luminari, cursive;
+    color: rgb(61,61,61);
+}
+span.name{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 70px;
+    font-family: Almendra, italic;
+    color: rgb(200,200,200);
+    text-transform: uppercase;
+}
+/* END HEADER */
+
+/* MENU */
+div.menu{
+    width: 980px;
+    margin:auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    font-family: Luminari, cursive;
+    text-transform: capitalize;
+}
+ul.nav {
+    border-radius: 8px;
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0 30px;
+    overflow: hidden;
+    background-color: #333; 
+}
+
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+li.dropdown{
+    list-style: none;
+    float: right;
+}
+.dropdown-content {
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* END MENU*/
+
+/* CONTENT */
+div.content{
+    width: 980px;
+    margin: auto;
+    min-height: 700px;
+}
+div.profile{
+    margin:10px auto;
+    width: 500px;
+    border: 3px solid #f1f1f1;
+    border-radius: 7px;
+}
+div.change-pass{
+    margin:10px auto;
+    width: 500px;
+    border: 3px solid #f1f1f1;
+    border-radius: 7px;
+}
+label{
+    display: block;
+    margin: 2px 7px;
+}
+input.form-control{
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.btn-save,.btn-change{
+    width: 25%;
+    margin: 2px 0 10px 7px;
+    border-radius: 7px;
+}
+.btn-save:hover,.btn-change:hover{
+    cursor: pointer;
+    color: blue;
+}
+/* END CONTENT */
+
+/* FOOTER */
+div.footer{
+    width: 100%;
+    height: 30px;
+    color:#ccc;
+    text-align: center;
+}
+span.foot{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+/* END FOOTER */
+/*End Personal Page*/
